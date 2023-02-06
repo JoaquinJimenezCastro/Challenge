@@ -1,0 +1,246 @@
+body{
+    background: white;
+}
+
+ 
+.nav{
+    width: 80%;
+    height: 150px;
+    margin: 30px 10%;
+    border-radius: 20px;
+    background: lightseagreen;
+    box-shadow: 10px 10px 80px 5px lightslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-text-stroke: medium;
+    color: goldenrod;
+    border-radius: 30px;
+    background: #2B3467;
+}
+
+#h1 {
+    background: none;
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    color: white;
+}
+
+.principal {    
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.encriptar {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.condiciones {
+    font-family: 'Nunito', sans-serif;
+    background: white;
+    margin: 0;
+    margin: 0 2%;
+    border-radius: 0 0 10px 10px;
+    padding: 1%;
+    color: grey;
+    font-weight: bold;
+}
+
+li {
+    margin: 3px;
+}
+
+.cuadrosTextoE {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0 2%;
+    resize: none;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+    outline: none;
+    background-color: white;
+    padding: 20px;
+    font-size: 17px;
+    box-shadow: 5px 5px 40px 5px lightslategray;
+}
+
+.desencriptar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.cuadrosTextoD {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    font-size: 17px;
+    color: #58287F;
+    padding: 20px;
+    height: 265px;
+    box-shadow: 5px 5px 40px 5px lightslategray;
+}
+
+::placeholder { 
+    color: grey; 
+}
+
+button#btn {
+    background-color:lightseagreen;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+}
+
+button#btn:hover {
+  color: white;
+  background-color: darkcyan;
+}
+
+
+#divBotones {
+    display: flex;
+    justify-content: space-evenly
+}
+
+.boton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background: lightseagreen;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.boton:hover{
+    background: darkcyan;
+    font-size: 18px;
+    color: white;
+}
+
+.piepagina {
+    margin-top: 120px;
+    width: 100%;
+    background: lightseagreen;
+    display: flex;
+    justify-content: space-around
+}
+
+.logoF {
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    margin-right: 13px;
+    margin-bottom: 5px;
+}
+
+.logoOne , .logoAlura {
+    font-family: 'Arvo', serif;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+    width: 50%;
+    margin: 20px;
+    font-size: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+
+#alura {
+    background-color:#2B3467 ;
+}
+
+@media screen and (max-width:480px){
+    
+    .bienvenidos{
+        font-size: 100%;
+    }
+    
+    .principal {    
+        margin-top: 3%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    h1{
+        font-size: 16px;
+    }
+
+    #divBotones{
+        margin-top: 4%;
+    }
+
+    .cuadrosTextoE{
+        font-size: 14px;
+    }
+
+    .encriptar {
+        width: 80%;
+        margin-bottom: 5%;
+        height: 300px;
+    }
+    
+    li {
+        margin: 3px;
+        font-size: 14px;
+    }
+ 
+    .desencriptar {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 200px;
+        font-size: 14px;
+    }
+
+    button#btn {
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
